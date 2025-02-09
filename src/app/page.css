@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+:root{
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    background: #75704E;
+}
+
+/* NavBar css*/
+nav{
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.links{
+    color: #D3D0CB;
+    text-decoration: none;
+    margin: 5px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Home page css */
+.HomePage{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.parallax{
+    background-image: url("/HomeImage.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Projects page css */
+.ProjectsPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card button{
+    margin: 5px;
+}
+
+/* About page css */
+.AboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutPage img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.AboutPage p {
+    max-width: 500px;
+    color: black;
+    margin: 7px;
+    font-size: 16px;
+}
+
+.AboutPage h3 {
+    color: black;
+    margin: 5px;
+}
+
+.about-buttons {
+    display: flex;
+    gap: 10px; /* Space between the buttons */
+    padding: 20px;
+}
+
+.about-buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .AboutPage p {
+        font-size: 14px; /* Smaller font size on smaller screens */
+    }
+
+    .AboutPage h3 {
+        font-size: 20px; /* Smaller heading font size */
+    }
+
+    .about-buttons button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px; /* Smaller font size on buttons */
+    }
+}
+
+@media (min-width: 1200px) {
+    .AboutPage p {
+        font-size: 20px; /* Larger font size on bigger screens */
+    }
+
+    .AboutPage h3 {
+        font-size: 30px; /* Larger heading font size */
+    }
+
+    .about-buttons button {
+        width: 80px;
+        height: 80px;
+        font-size: 18px; /* Larger font size on buttons */
+    }
+}
+
+/* Contact page css */
+.ContactPage{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
