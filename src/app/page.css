@@ -6,6 +6,8 @@
     font-weight: 400;
     font-style: italic;
     background: #75704E;
+
+    --black: color: #0e0c04e1;
 }
 
 ::-webkit-scrollbar {
@@ -14,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #0e0c04e1;
+    background-color: var(--black);
     border-radius: 10px;
 }
 
@@ -22,6 +24,27 @@
     background-color: #75704E;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .AboutPage p {
+        font-size: 14px;
+    }
+
+    .AboutPage h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .AboutPage p {
+        font-size: 20px;
+    }
+
+    .AboutPage h3 {
+        font-size: 30px;
+    }
+}
 
 /* NavBar css*/
 nav{
@@ -66,32 +89,6 @@ html{
     background-repeat: no-repeat;
 }
 
-/* Projects page css */
-.ProjectsPage{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-}
-
-.card{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 5px;
-    padding: 20px;
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 10px;
-}
-
-.card img{
-    width: 100px;
-}
-
-.card button{
-    margin: 5px;
-}
-
 /* About page css */
 .AboutPage {
     display: flex;
@@ -118,6 +115,7 @@ html{
 }
 
 .about-buttons {
+    padding: 5px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -139,27 +137,56 @@ html{
     color: #141204;
 }
 
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .AboutPage p {
-        font-size: 14px;
-    }
-
-    .AboutPage h3 {
-        font-size: 20px;
-    }
-
+/* Projects page css */
+.ProjectsPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
 }
 
-@media (min-width: 1200px) {
-    .AboutPage p {
-        font-size: 20px;
-    }
+.card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 30px 10px;
+    transition: transform 0.5s ease, padding 0.5s ease;
+}
 
-    .AboutPage h3 {
-        font-size: 30px;
-    }
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card-box{
+    margin: 10px;
+}
+
+.proj-desc p{
+    max-width: 500px;
+}
+
+.card img{
+    width: 150px;
+    border-radius: 10px 30px;
+}
+
+.card button{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, padding 0.3s ease;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.card button:hover{
+    transform: scale(1.02);
 }
 
 /* Contact page css */

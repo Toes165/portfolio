@@ -41,10 +41,10 @@ export default function Home() {
             impactful solutions.
           </p>
           <p>
-            My interests span full-stack development, artificial intelligence,
-            and software engineering. My passion for software engineering drives
-            me to design accesible, maintainable, and efficient code while
-            continuously learning about new technologies.
+            My interests span a variety of fields such as full-stack
+            development, artificial intelligence, and data science. My passion
+            to design accesible, maintainable, and efficient code is what drives
+            to continuously learn about new technologies.
           </p>
           <p>
             With experience in front-end development and data analysis, I am
@@ -119,32 +119,63 @@ export default function Home() {
       <section className="ProjectsPage" id="Projects">
         <div className="card">
           <img src="ayo.jpg" alt="Project Image" />
-          <h1>Project 1</h1>
-          <div className="project-btn">
-            <button>GitHub</button>
+          <div className="card-box">
+            <h1>Beezy</h1>
+            <div className="proj-desc">
+              <p>
+                As a front-end developer on a team of six, I played a key role
+                in building Local Freelance Connect, a platform designed to
+                connect freelancers with clients in their local communities. I
+                developed responsive and user-friendly interfaces using Next.js
+                and TypeScript, ensuring a smooth and engaging user experience.
+              </p>
+            </div>
+            <button>
+              <a
+                href="https://github.com/jkum1/reabbit/tree/Anderson's-Branch"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </button>
+            <button>
+              <a
+                href="https://www.figma.com/proto/ruIdCdrtBbRgCeoaW1Pmaf/BEEZY-Wireframe?node-id=5-4&p=f&t=yBKlN90HRaJs7NpX-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A2"
+                target="_blank"
+              >
+                Demo
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className="card">
+          <img src="ayo.jpg" alt="Project Image" />
+          <div className="card-box">
+            <h1>Climate Change Analysis</h1>
+            <div className="proj-desc">
+              <p>
+                I collaborated with a teammate to build the Climate Change Data
+                Analysis Tool, a C++ program designed to process and analyze
+                NASA climate datasets. The tool extracts key insights from
+                temperature and greenhouse gas concentration data, providing
+                visual comparisons using Gnuplot.
+              </p>
+            </div>
+            <button>
+              <a
+                href="https://github.com/Toes165/Climate-Change-Analysis-Project"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </button>
             <button>Demo</button>
           </div>
         </div>
         <div className="card">
           <img src="ayo.jpg" alt="Project Image" />
-          <h1>Project 2</h1>
-          <div className="project-btn">
-            <button>GitHub</button>
-            <button>Demo</button>
-          </div>
-        </div>
-        <div className="card">
-          <img src="ayo.jpg" alt="Project Image" />
-          <h1>Project 3</h1>
-          <div className="project-btn">
-            <button>GitHub</button>
-            <button>Demo</button>
-          </div>
-        </div>
-        <div className="card">
-          <img src="ayo.jpg" alt="Project Image" />
-          <h1>Project 4</h1>
-          <div className="project-btn">
+          <div className="card-box">
+            <h1>Coming Soon...</h1>
             <button>GitHub</button>
             <button>Demo</button>
           </div>
