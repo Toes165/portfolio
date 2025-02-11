@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./page.css";
 import Link from "next/link";
 
@@ -29,7 +30,7 @@ export default function Home() {
       </section>
       <section className="AboutPage" id="About">
         <div className="about-img">
-          <img src="/avatar.png" alt="Anderson" />
+          <Image src="/avatar.png" alt="Anderson"></Image>
         </div>
         <div className="AboutMe">
           <h3>Hello,</h3>
@@ -56,8 +57,8 @@ export default function Home() {
             exercising, and exploring new restaurants.
           </p>
           <p>
-            I'm always open to questions and conversations—feel free to reach
-            out!
+            I&apos;m always open to questions and conversations—feel free to
+            reach out!
           </p>
         </div>
         <div className="about-buttons">
@@ -118,7 +119,7 @@ export default function Home() {
       </section>
       <section className="ProjectsPage" id="Projects">
         <div className="card">
-          <img src="ayo.jpg" alt="Project Image" />
+          <Image src="ayo.jpg" alt="Project Image"></Image>
           <div className="card-box">
             <h1>Beezy</h1>
             <div className="proj-desc">
@@ -149,7 +150,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="ayo.jpg" alt="Project Image" />
+          <Image src="ayo.jpg" alt="Project Image"></Image>
           <div className="card-box">
             <h1>Climate Change Analysis</h1>
             <div className="proj-desc">
@@ -173,7 +174,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="ayo.jpg" alt="Project Image" />
+          <Image src="ayo.jpg" alt="Project Image"></Image>
           <div className="card-box">
             <h1>Coming Soon...</h1>
             <button>GitHub</button>
