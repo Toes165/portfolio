@@ -9,11 +9,11 @@ export default function Home() {
         <Link href={"#Home"} className="links">
           Home
         </Link>
-        <Link href={"#Projects"} className="links">
-          Projects
-        </Link>
         <Link href={"#About"} className="links">
           About
+        </Link>
+        <Link href={"#Projects"} className="links">
+          Projects
         </Link>
         <Link href={"#Contact"} className="links">
           Contact
@@ -30,7 +30,7 @@ export default function Home() {
       </section>
       <section className="AboutPage" id="About">
         <div className="about-img">
-          <Image src="avatar.png" alt="Anderson"></Image>
+          <img src="/avatar.png" alt="Anderson"></img>
         </div>
         <div className="AboutMe">
           <h3>Hello,</h3>
@@ -119,7 +119,7 @@ export default function Home() {
       </section>
       <section className="ProjectsPage" id="Projects">
         <div className="card">
-          <Image src="ayo.jpg" alt="Project Image"></Image>
+          <img src="/ayo.jpg" alt="Project img"></img>
           <div className="card-box">
             <h1>Beezy</h1>
             <div className="proj-desc">
@@ -150,7 +150,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <Image src="ayo.jpg" alt="Project Image"></Image>
+          <img src="/ayo.jpg" alt="Project Image"></img>
           <div className="card-box">
             <h1>Climate Change Analysis</h1>
             <div className="proj-desc">
@@ -174,7 +174,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <Image src="ayo.jpg" alt="Project Image"></Image>
+          <img src="/ayo.jpg" alt="Project Image"></img>
           <div className="card-box">
             <h1>Coming Soon...</h1>
             <button>GitHub</button>
