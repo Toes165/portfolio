@@ -82,7 +82,7 @@ html{
 }
 
 .parallax{
-    background-image: url("/public/HomeImage.JPG");
+    background-image: url("/HomeImage.JPG");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
