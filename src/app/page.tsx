@@ -29,7 +29,7 @@ export default function Home() {
       </section>
       <section className="AboutPage" id="About">
         <div className="about-img">
-          <img src="/avatar.png" alt="Anderson"></img>
+          <img src="/portfolio/public/avatar.png" alt="Anderson"></img>
         </div>
         <div className="AboutMe">
           <h3>Hello,</h3>
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
       <section className="ProjectsPage" id="Projects">
         <div className="card">
-          <img src="/ayo.jpg" alt="Project img"></img>
+          <img src="/portfolio/public/ayo.jpg" alt="Project img"></img>
           <div className="card-box">
             <h1>Beezy</h1>
             <div className="proj-desc">
@@ -149,7 +149,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="/ayo.jpg" alt="Project Image"></img>
+          <img src="/portfolio/public/ayo.jpg" alt="Project Image"></img>
           <div className="card-box">
             <h1>Climate Change Analysis</h1>
             <div className="proj-desc">
@@ -173,7 +173,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="/ayo.jpg" alt="Project Image"></img>
+          <img src="/portfolio/public/ayo.jpg" alt="Project Image"></img>
           <div className="card-box">
             <h1>Coming Soon...</h1>
             <button>GitHub</button>
