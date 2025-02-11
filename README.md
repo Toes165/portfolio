@@ -6,9 +6,9 @@ My name is Anderson. I am an undergraduate student majoring in Computer Science 
 ##Table of Contents
 - [**Features**](https://github.com/Toes165/portfolio?tab=readme-ov-file#features)
 - [**Technologies Used**](https://github.com/Toes165/portfolio?tab=readme-ov-file#technologies-used)
-- [**Setup**](https://github.com/Toes165/portfolio?tab=readme-ov-filesetup-instructions)
-- [**Features**](https://github.com/Toes165/portfolio?tab=readme-ov-filecontributions)
-- [**Features**](https://github.com/Toes165/portfolio?tab=readme-ov-filecontact)
+- [**Setup**](https://github.com/Toes165/portfolio?tab=readme-ov-file#setup-instructions)
+- [**Contributions**](https://github.com/Toes165/portfolio?tab=readme-ov-file#contributions)
+- [**Contact**](https://github.com/Toes165/portfolio?tab=readme-ov-file#contact)
 
 ## Features
 - **About Me**: Learn more about my background, education, and interests.
