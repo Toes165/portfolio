@@ -30,7 +30,7 @@ export default function Home() {
       </section>
       <section className="AboutPage" id="About">
         <div className="about-img">
-          <Image src="/avatar.png" alt="Anderson"></Image>
+          <Image src="avatar.png" alt="Anderson"></Image>
         </div>
         <div className="AboutMe">
           <h3>Hello,</h3>
