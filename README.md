@@ -4,11 +4,11 @@
 My name is Anderson. I am an undergraduate student majoring in Computer Science at Bellevue College. I am passionate about building user-centered software solutions and exploring the field of data science.
 
 ##Table of Contents
-- [**Features**](https://github.com/Toes165/portfolio/edit/master/README.md#features)
-- [**Technologies Used**](https://github.com/Toes165/portfolio/edit/master/README.md#technologies-used)
-- [**Setup**](https://github.com/Toes165/portfolio/edit/master/README.md#setup-instructions)
-- [**Features**](https://github.com/Toes165/portfolio/edit/master/README.md#contributions)
-- [**Features**](https://github.com/Toes165/portfolio/edit/master/README.md#contact)
+- [**Features**](https://github.com/Toes165/portfolio?tab=readme-ov-file#features)
+- [**Technologies Used**](https://github.com/Toes165/portfolio?tab=readme-ov-file#technologies-used)
+- [**Setup**](https://github.com/Toes165/portfolio?tab=readme-ov-filesetup-instructions)
+- [**Features**](https://github.com/Toes165/portfolio?tab=readme-ov-filecontributions)
+- [**Features**](https://github.com/Toes165/portfolio?tab=readme-ov-filecontact)
 
 ## Features
 - **About Me**: Learn more about my background, education, and interests.
