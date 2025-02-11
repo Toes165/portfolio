@@ -18,7 +18,11 @@ export default function Home() {
           Contact
         </Link>
       </nav>
-      <section className="HomePage parallax" id="Home">
+      <section
+        className="HomePage parallax"
+        id="Home"
+        style={{ backgroundImage: `url('/portfolio/HomeImage.JPG')` }}
+      >
         <div className="Intro">
           <h1>Hello!</h1>
           <h1>Welcome</h1>
