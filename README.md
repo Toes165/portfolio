@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Welcome to my personal website repository! 
 
-## Getting Started
+## About Me
+My name is Anderson. I am an undergraduate student majoring in Computer Science at Bellevue College. I am passionate about building user-centered software solutions and exploring the field of data science.
 
-First, run the development server:
+##Table of Contents
+- [**Features**](https://github.com/Toes165/portfolio/edit/master/README.md#features)
+- [**Technologies Used**](https://github.com/Toes165/portfolio/edit/master/README.md#technologies-used)
+- [**Setup**](https://github.com/Toes165/portfolio/edit/master/README.md#setup-instructions)
+- [**Features**](https://github.com/Toes165/portfolio/edit/master/README.md#contributions)
+- [**Features**](https://github.com/Toes165/portfolio/edit/master/README.md#contact)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **About Me**: Learn more about my background, education, and interests.
+- **Projects**: A showcase of the projects I've worked on.
+- **Contact**: Ways to get in touch with me.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+- **Frontend**: React, Next.js, TypeScript, JavaScript, HTML/CSS
+- **Backend**: Node.js
+- **Other Tools**: Git, VS Code
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup Instructions
+To run the project locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Toes165/portfolio.git
+   cd portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and navigate to `http://localhost:3000`.
 
-## Learn More
+## Contributions
+If you'd like to contribute or suggest improvements, feel free to submit an issue or a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
+Feel free to connect with me via:
+- [**LinkedIn**](https://www.linkedin.com/in/andersonto26/)
+- [**GitHub**](https://github.com/Toes165)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Thank you for visiting my website!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
