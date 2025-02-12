@@ -30,18 +30,13 @@
         font-size: 20px;
     }
 
-    .AboutPage h3 {
-        font-size: 40px;
-    }
-
     .proj-desc p {
         font-size: 20px;
     }
 
-    .ProjectsPage h1 {
+    h1 {
         font-size: 32px;
     }
-
 
 }
 
@@ -50,16 +45,12 @@
         font-size: 20px;
     }
 
-    .AboutPage h3 {
-        font-size: 50px;
-    }
-
     .proj-desc p {
         font-size: 20px;
     }
 
-    .ProjectsPage h1 {
-        font-size: 50px;
+    h1 {
+        font-size: 40px;
     }
 
 }
@@ -107,30 +98,86 @@ html {
 }
 
 /* About page css */
+/* About page css */
 .AboutPage {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    min-height: 100vh;
     padding: 10px;
+    text-align: center; /* Center the text */
 }
 
-.AboutPage img {
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
     width: 100%;
+}
+
+.about-img img{
     max-width: 250px;
 }
 
-.AboutPage p {
-    max-width: 500px;
-    color: black;
-    margin: 7px;
-    font-weight: 500;
+.AboutMe {
+    width: 100%;
+    text-align: center; /* Center the text */
 }
 
-.AboutPage h3 {
-    color: black;
+.hobbies {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music p {
+    text-align: center;
+    margin: 0;
+}
+
+.music-player iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+
+.photo-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 30px;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.photo img {
+    max-width: 200px;
     margin: 5px;
+}
+
+.AboutMe p {
+    max-width: 500px;
+    color: black;
+    margin: 7px auto; /* Center paragraphs */
+    font-weight: 500;
+    text-align: left;
+}
+
+.AboutPage h1 {
+    max-width: 500px;
+    color: black;
+    margin: 7px auto;
+    text-align: left;
 }
 
 .about-buttons {
@@ -138,6 +185,7 @@ html {
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 20px; /* Space above the buttons */
 }
 
 .about-buttons a:hover {
@@ -211,6 +259,7 @@ html {
 
 /* Contact page css */
 .ContactPage {
+    width: 100%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -223,7 +272,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    margin: 10px;
 }
 
 .Contact form input,

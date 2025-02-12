@@ -32,91 +32,115 @@ export default function Home() {
         </div>
       </section>
       <section className="AboutPage" id="About">
-        <div className="about-img">
-          <img src="avatar.png" alt="Anderson"></img>
-        </div>
-        <div className="AboutMe">
-          <h3>Hello,</h3>
-          <p>My name is Anderson!</p>
-          <p>
-            I am an undergraduate Computer Science student at Bellevue College.
-            As a first-generation student, I aspire to break into the tech
-            industry, leveraging my diverse background to develop innovative and
-            impactful solutions.
-          </p>
-          <p>
-            My interests span a variety of fields such as full-stack
-            development, artificial intelligence, and data science. My passion
-            to design accesible, maintainable, and efficient code is what drives
-            to continuously learn about new technologies.
-          </p>
-          <p>
-            I have experience in front-end development and data analysis, with skills in Java, Python, C/C++, JavaScript, TypeScript, and
-            frameworks like React and Next.js.
-          </p>
-          <p>
-            Beyond academics, I enjoy listening to music, gaming, photography,
-            exercising, and exploring new restaurants.
-          </p>
-          <p>
-            I&apos;m always open to questions and conversations—feel free to
-            reach out!
-          </p>
-        </div>
-        <div className="about-buttons">
-          <a href="mailto:anderson165968@gmail.com" target="_blank">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="tabler-icon tabler-icon-mail h-full w-full text-neutral-500 dark:text-neutral-300"
-            >
-              <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
-              <path d="M3 7l9 6l9 -6"></path>
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/andersonto26/" target="_blank">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="tabler-icon tabler-icon-brand-linkedin h-full w-full text-neutral-500 dark:text-neutral-300"
-            >
-              <path d="M8 11v5"></path>
-              <path d="M8 8v.01"></path>
-              <path d="M12 16v-5"></path>
-              <path d="M16 16v-3a2 2 0 1 0 -4 0"></path>
-              <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
-            </svg>
-          </a>
-          <a href="https://github.com/Toes165" target="_blank">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="tabler-icon tabler-icon-brand-github h-full w-full text-neutral-500 dark:text-neutral-300"
-            >
-              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-            </svg>
-          </a>
+        <div className="about-content">
+          <div className="about-img">
+            <img src="avatar.png" alt="Anderson"></img>
+          </div>
+          <div className="AboutMe">
+            <h1>Hello,</h1>
+            <p>My name is Anderson!</p>
+            <p>
+              I am an undergraduate Computer Science student at Bellevue
+              College. As a first-generation student, I aspire to break into the
+              tech industry, leveraging my diverse background to develop
+              innovative and impactful solutions.
+            </p>
+            <p>
+              My interests span a variety of fields such as full-stack
+              development, artificial intelligence, and data science. My passion
+              to design accesible, maintainable, and efficient code is what
+              drives to continuously learn about new technologies.
+            </p>
+            <p>
+              I have experience in front-end development and data analysis, with
+              skills in Java, Python, C/C++, JavaScript, TypeScript, and
+              frameworks like React and Next.js.
+            </p>
+            <p>
+              Beyond academics, I enjoy listening to music, gaming, photography,
+              exercising, and exploring new restaurants.
+            </p>
+            <div className="hobbies">
+              <div className="music">
+                <p>Favorite Songs Currently</p>
+                <div className="music-player">
+                  <iframe
+                    src="https://open.spotify.com/embed/playlist/5EGuV6PI8Uw0U7TMMuCpSk?utm_source=generator"
+                    allowFullScreen
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+              <div className="photo-box">
+                <p>Favorite Photos(WIP)</p>
+                <div className="photo">
+                  <img src="/image1.JPG" alt="" />
+                  <img src="/image1.JPG" alt="" />
+                  <img src="/image1.JPG" alt="" />
+                </div>
+              </div>
+            </div>
+            <p>
+              I&apos;m always open to questions and conversations—feel free to
+              reach out!
+            </p>
+          </div>
+          <div className="about-buttons">
+            <a href="mailto:anderson165968@gmail.com" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="tabler-icon tabler-icon-mail h-full w-full text-neutral-500 dark:text-neutral-300"
+              >
+                <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                <path d="M3 7l9 6l9 -6"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/andersonto26/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="tabler-icon tabler-icon-brand-linkedin h-full w-full text-neutral-500 dark:text-neutral-300"
+              >
+                <path d="M8 11v5"></path>
+                <path d="M8 8v.01"></path>
+                <path d="M12 16v-5"></path>
+                <path d="M16 16v-3a2 2 0 1 0 -4 0"></path>
+                <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/Toes165" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="tabler-icon tabler-icon-brand-github h-full w-full text-neutral-500 dark:text-neutral-300"
+              >
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
       <section className="ProjectsPage" id="Projects">
@@ -126,10 +150,11 @@ export default function Home() {
             <h1>Beezy</h1>
             <div className="proj-desc">
               <p>
-                Beezy is a web platform that helps freelancers connect with local clients 
-                by offering an intuitive interface for showcasing services and managing projects. 
-                Built with Next.js and TypeScript, it provides a seamless user experience 
-                with a responsive design optimized for all devices.
+                Beezy is a web platform that helps freelancers connect with
+                local clients by offering an intuitive interface for showcasing
+                services and managing projects. Built with Next.js and
+                TypeScript, it provides a seamless user experience with a
+                responsive design optimized for all devices.
               </p>
             </div>
             <button>
@@ -156,11 +181,11 @@ export default function Home() {
             <h1>Climate Change Analysis</h1>
             <div className="proj-desc">
               <p>
-                The Climate Change Data Analysis Tool is a C++ application that 
-                processes and visualizes NASA climate datasets. It analyzes trends in 
-                temperature and greenhouse gas concentrations, providing interactive 
-                visual representations using Gnuplot for better insight into global 
-                climate changes.
+                The Climate Change Data Analysis Tool is a C++ application that
+                processes and visualizes NASA climate datasets. It analyzes
+                trends in temperature and greenhouse gas concentrations,
+                providing interactive visual representations using Gnuplot for
+                better insight into global climate changes.
               </p>
             </div>
             <button>
@@ -185,7 +210,7 @@ export default function Home() {
       </section>
       <section className="ContactPage" id="Contact">
         <div className="Contact">
-          <h2>Contact Me</h2>
+          <h1>Contact Me</h1>
           <form action="">
             <input type="text" placeholder="Name" />
             <br />
