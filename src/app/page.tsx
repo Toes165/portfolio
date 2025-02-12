@@ -21,7 +21,7 @@ export default function Home() {
       <section
         className="HomePage parallax"
         id="Home"
-        style={{ backgroundImage: `url('/HomeImage.JPG')` }}
+        style={{ backgroundImage: `url('HomeImage.JPG')` }}
       >
         <div className="Intro">
           <h1>Hello!</h1>
