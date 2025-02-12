@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <section className="AboutPage" id="About">
         <div className="about-img">
-          <img src="/avatar.png" alt="Anderson"></img>
+          <img src="avatar.png" alt="Anderson"></img>
         </div>
         <div className="AboutMe">
           <h3>Hello,</h3>
