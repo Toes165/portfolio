@@ -21,7 +21,7 @@ export default function Home() {
       <section
         className="HomePage parallax"
         id="Home"
-        style={{ backgroundImage: `url('/portfolio/HomeImage.JPG')` }}
+        style={{ backgroundImage: `url('/HomeImage.JPG')` }}
       >
         <div className="Intro">
           <h1>Hello!</h1>
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <section className="AboutPage" id="About">
         <div className="about-img">
-          <img src="/portfolio/avatar.png" alt="Anderson"></img>
+          <img src="/avatar.png" alt="Anderson"></img>
         </div>
         <div className="AboutMe">
           <h3>Hello,</h3>
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
       <section className="ProjectsPage" id="Projects">
         <div className="card">
-          <img src="/portfolio/ayo.jpg" alt="Project img"></img>
+          <img src="Beezy.png" alt="Project img"></img>
           <div className="card-box">
             <h1>Beezy</h1>
             <div className="proj-desc">
@@ -153,7 +153,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="/portfolio/ayo.jpg" alt="Project Image"></img>
+          <img src="Globe.png" alt="Project Image"></img>
           <div className="card-box">
             <h1>Climate Change Analysis</h1>
             <div className="proj-desc">
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="/portfolio/ayo.jpg" alt="Project Image"></img>
+          <img src="goofy.png" alt="Project Image"></img>
           <div className="card-box">
             <h1>Coming Soon...</h1>
             <button>GitHub</button>

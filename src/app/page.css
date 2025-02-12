@@ -27,11 +27,11 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .AboutPage p {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .AboutPage h3 {
-        font-size: 20px;
+        font-size: 32px;
     }
 
 }
@@ -120,6 +120,10 @@ html {
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+
+.about-buttons a:hover {
+    transform: translateY(-5px);
 }
 
 .about-buttons a {
