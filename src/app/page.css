@@ -27,7 +27,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .AboutPage p {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .AboutPage h3 {
@@ -38,7 +38,7 @@
 
 @media (min-width: 1200px) {
     .AboutPage p {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .AboutPage h3 {
@@ -91,7 +91,7 @@ html {
 /* About page css */
 .AboutPage {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@ html {
     max-width: 500px;
     color: black;
     margin: 7px;
-    font-size: 16px;
+    font-weight: 500;
 }
 
 .AboutPage h3 {
@@ -147,14 +147,14 @@ html {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card {
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.07);
     border-radius: 30px 10px;
@@ -165,17 +165,14 @@ html {
     transform: scale(1.02);
 }
 
-.card-box {
-    margin: 10px;
-}
-
 .proj-desc p {
+    margin-top: 5px;
     max-width: 500px;
+    font-weight: 500;
 }
 
 .card img {
     width: 150px;
-    border-radius: 10px 30px;
 }
 
 .card button {
@@ -197,7 +194,7 @@ html {
 /* Contact page css */
 .ContactPage {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     text-align: center;
     justify-content: center;
