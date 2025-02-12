@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
-:root{
+:root {
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
     background: #75704E;
 
-    --black: color: #0e0c04e1;
+    --black: #0e0c04e1;
 }
 
 ::-webkit-scrollbar {
@@ -47,7 +47,7 @@
 }
 
 /* NavBar css*/
-nav{
+nav {
     display: flex;
     position: fixed;
     justify-content: flex-end;
@@ -55,21 +55,21 @@ nav{
     box-sizing: border-box;
     padding: 10px 20px;
     width: 100vw;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.links{
+.links {
     color: #D3D0CB;
     text-decoration: none;
     margin: 5px;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /* Home page css */
-.HomePage{
+.HomePage {
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -81,7 +81,7 @@ html{
     font-size: 20px;
 }
 
-.parallax{
+.parallax {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -91,8 +91,10 @@ html{
 /* About page css */
 .AboutPage {
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -125,7 +127,7 @@ html{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     height: 50px;
     width: 50px;
 }
@@ -137,14 +139,14 @@ html{
 }
 
 /* Projects page css */
-.ProjectsPage{
+.ProjectsPage {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100vh;
 }
 
-.card{
+.card {
     display: flex;
     align-items: center;
     width: 100%;
@@ -155,36 +157,36 @@ html{
     transition: transform 0.5s ease, padding 0.5s ease;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.02);
 }
 
-.card-box{
+.card-box {
     margin: 10px;
 }
 
-.proj-desc p{
+.proj-desc p {
     max-width: 500px;
 }
 
-.card img{
+.card img {
     width: 150px;
     border-radius: 10px 30px;
 }
 
-.card button{
+.card button {
     margin: 5px;
     padding: 8px;
     border-radius: 20px;
     transition: transform 0.3s ease, padding 0.3s ease;
 }
 
-.card a{
+.card a {
     color: black;
     text-decoration: none;
 }
 
-.card button:hover{
+.card button:hover {
     transform: scale(1.02);
 }
 
@@ -214,7 +216,5 @@ html{
 
 .Contact form textarea {
     min-height: 150px;
-    scrollbar-color: #75704E white ;
+    scrollbar-color: #75704E white;
 }
-
-
