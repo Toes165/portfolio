@@ -75,9 +75,9 @@ export default function Home() {
               <div className="photo-box">
                 <p>Favorite Photos(WIP)</p>
                 <div className="photo">
-                  <img src="/image1.JPG" alt="" />
-                  <img src="/image1.JPG" alt="" />
-                  <img src="/image1.JPG" alt="" />
+                  <img src="image1.JPG" alt="" />
+                  <img src="image1.JPG" alt="" />
+                  <img src="image1.JPG" alt="" />
                 </div>
               </div>
             </div>
