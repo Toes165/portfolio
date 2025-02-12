@@ -27,12 +27,21 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .AboutPage p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .AboutPage h3 {
+        font-size: 40px;
+    }
+
+    .proj-desc p {
+        font-size: 20px;
+    }
+
+    .ProjectsPage h1 {
         font-size: 32px;
     }
+
 
 }
 
@@ -44,6 +53,15 @@
     .AboutPage h3 {
         font-size: 50px;
     }
+
+    .proj-desc p {
+        font-size: 20px;
+    }
+
+    .ProjectsPage h1 {
+        font-size: 50px;
+    }
+
 }
 
 /* NavBar css*/
@@ -167,7 +185,7 @@ html {
 
 .proj-desc p {
     margin-top: 5px;
-    max-width: 500px;
+    max-width: 1000px;
     font-weight: 500;
 }
 

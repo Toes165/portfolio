@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <nav className="navbar">
-        <Link href={"#Home"} className="links">
+        <Link href="/" className="links">
           Home
         </Link>
         <Link href={"#About"} className="links">
@@ -51,8 +51,7 @@ export default function Home() {
             to continuously learn about new technologies.
           </p>
           <p>
-            With experience in front-end development and data analysis, I am
-            proficient in Java, Python, C/C++, JavaScript, TypeScript, and
+            I have experience in front-end development and data analysis, with skills in Java, Python, C/C++, JavaScript, TypeScript, and
             frameworks like React and Next.js.
           </p>
           <p>
@@ -127,11 +126,10 @@ export default function Home() {
             <h1>Beezy</h1>
             <div className="proj-desc">
               <p>
-                As a front-end developer on a team of six, I played a key role
-                in building Local Freelance Connect, a platform designed to
-                connect freelancers with clients in their local communities. I
-                developed responsive and user-friendly interfaces using Next.js
-                and TypeScript, ensuring a smooth and engaging user experience.
+                Beezy is a web platform that helps freelancers connect with local clients 
+                by offering an intuitive interface for showcasing services and managing projects. 
+                Built with Next.js and TypeScript, it provides a seamless user experience 
+                with a responsive design optimized for all devices.
               </p>
             </div>
             <button>
@@ -158,11 +156,11 @@ export default function Home() {
             <h1>Climate Change Analysis</h1>
             <div className="proj-desc">
               <p>
-                I collaborated with a teammate to build the Climate Change Data
-                Analysis Tool, a C++ program designed to process and analyze
-                NASA climate datasets. The tool extracts key insights from
-                temperature and greenhouse gas concentration data, providing
-                visual comparisons using Gnuplot.
+                The Climate Change Data Analysis Tool is a C++ application that 
+                processes and visualizes NASA climate datasets. It analyzes trends in 
+                temperature and greenhouse gas concentrations, providing interactive 
+                visual representations using Gnuplot for better insight into global 
+                climate changes.
               </p>
             </div>
             <button>
