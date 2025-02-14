@@ -1,5 +1,6 @@
 import "./page.css";
 import Link from "next/link";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -76,7 +77,7 @@ export default function Home() {
                 <p>Favorite Photos(WIP)</p>
                 <div className="photo">
                   <img src="image1.JPG" alt="" />
-                  <img src="image1.JPG" alt="" />
+                  <img src="Noodles.JPG" alt="" />
                   <img src="image1.JPG" alt="" />
                 </div>
               </div>
@@ -182,10 +183,10 @@ export default function Home() {
             <div className="proj-desc">
               <p>
                 The Climate Change Data Analysis Tool is a C++ application that
-                processes and visualizes NASA climate datasets. It analyzes
-                trends in temperature and greenhouse gas concentrations,
-                providing interactive visual representations using Gnuplot for
-                better insight into global climate changes.
+                processes and visualizes climate datasets. It analyzes trends in
+                temperature and greenhouse gas concentrations, providing
+                interactive visual representations using Gnuplot for better
+                insight into global climate changes.
               </p>
             </div>
             <button>
@@ -211,15 +212,7 @@ export default function Home() {
       <section className="ContactPage" id="Contact">
         <div className="Contact">
           <h1>Contact Me</h1>
-          <form action="">
-            <input type="text" placeholder="Name" />
-            <br />
-            <input type="email" placeholder="Email" />
-            <br />
-            <textarea placeholder="Message" className="Message"></textarea>
-            <br />
-            <input type="submit" value="Submit" />
-          </form>
+          <ContactForm />
         </div>
       </section>
       <footer>
