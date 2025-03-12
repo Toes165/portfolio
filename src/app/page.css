@@ -24,6 +24,16 @@
     background-color: #75704E;
 }
 
+/* Animations */
+@keyframes slideUp{
+    from{
+        translate: translateY(-200px);
+    }to{
+        translate: translateY(200px);
+    }
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .AboutPage p {
@@ -73,6 +83,10 @@ nav {
     margin: 5px;
 }
 
+.links:hover {
+    color: #ffffff;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -106,6 +120,7 @@ html {
     min-height: 100vh;
     padding: 10px;
     text-align: center; /* Center the text */
+    margin: 5px;
 }
 
 .about-content {
@@ -277,6 +292,9 @@ html {
 
 .Contact form input,
 .Contact form textarea {
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
     padding: 10px;
     width: 100%;
     max-width: 500px;

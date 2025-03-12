@@ -1,6 +1,5 @@
 import "./page.css";
 import Link from "next/link";
-import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -78,7 +77,7 @@ export default function Home() {
                 <div className="photo">
                   <img src="image1.JPG" alt="" />
                   <img src="Noodles.JPG" alt="" />
-                  <img src="image1.JPG" alt="" />
+                  <img src="Hawaii.JPG" alt="" />
                 </div>
               </div>
             </div>
@@ -212,7 +211,24 @@ export default function Home() {
       <section className="ContactPage" id="Contact">
         <div className="Contact">
           <h1>Contact Me</h1>
-          <ContactForm />
+          <h2>
+            Work in progress! In the meantime, feel free to reach out to me via
+            email or LinkedIn.
+          </h2>
+          {/* <form className="contact-form">
+            <input type="text" name="name" placeholder="Name" required />
+            <br />
+            <input type="email" name="email" placeholder="Email" required />
+            <br />
+            <textarea
+              name="message"
+              placeholder="Message"
+              className="Message"
+              required
+            ></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+          </form> */}
         </div>
       </section>
       <footer>
