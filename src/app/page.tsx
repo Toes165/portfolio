@@ -29,7 +29,7 @@ export default function Home() {
               <img src="avatar.png" alt="Anderson"></img>
             </div>
             <div className="intro-text">
-              <h1>Hello, I'm Anderson</h1>
+              <h1>Hello, I&apos;m Anderson</h1>
               <p>Software Engineer, Photographer, and Travel Enthusiast!</p>
               <p>
                 I am passionate about creating things that are accessible for
