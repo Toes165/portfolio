@@ -23,22 +23,26 @@ export default function Home() {
         id="Home"
         style={{ backgroundImage: `url('HomeImage.JPG')` }}
       >
-        <div className="Intro">
-          <h1>Hello!</h1>
-          <h1>Welcome</h1>
-          <h1>to</h1>
-          <h1>my</h1>
-          <h1>Portfolio!</h1>
+        <div className="IntroBox">
+          <div className="intro">
+            <div className="about-img">
+              <img src="avatar.png" alt="Anderson"></img>
+            </div>
+            <div className="intro-text">
+              <h1>Hello, I'm Anderson</h1>
+              <p>Software Engineer, Photographer, and Travel Enthusiast!</p>
+              <p>
+                I am passionate about creating things that are accessible for
+                everyone.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section className="AboutPage" id="About">
         <div className="about-content">
-          <div className="about-img">
-            <img src="avatar.png" alt="Anderson"></img>
-          </div>
           <div className="AboutMe">
-            <h1>Hello,</h1>
-            <p>My name is Anderson!</p>
+            <h1>About Me</h1>
             <p>
               I am an undergraduate Computer Science student at Bellevue
               College. As a first-generation student, I aspire to break into the
@@ -46,10 +50,10 @@ export default function Home() {
               innovative and impactful solutions.
             </p>
             <p>
-              My interests span a variety of fields such as full-stack
-              development, artificial intelligence, and data science. My passion
-              to design accesible, maintainable, and efficient code is what
-              drives to continuously learn about new technologies.
+              My interests span a variety of fields such as software
+              development, data science, and game design. My passion to design
+              accessible, maintainable, and efficient code is what drives to
+              continuously learn about new technologies.
             </p>
             <p>
               I have experience in front-end development and data analysis, with
